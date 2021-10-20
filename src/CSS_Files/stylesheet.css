@@ -1,0 +1,84 @@
+/*//////////////////////////////////////////////////////////////////
+//  Login Styles  //
+//////////////////////////////////////////////////////////////////*/
+#ForgotPass{
+	-fx-underline: true;
+}
+#loginpane1{
+	-fx-background-color:#0C0A0A;
+}
+#loginpane2{
+	-fx-background-color:#332A2A;
+}
+
+#inputNIC,#inputPass{
+	-fx-background-radius:20px;
+	-fx-background-color:transparent;
+	-fx-border-color: transparent transparent #aaa transparent;
+	-fx-padding: 10px;
+}
+#loginbtn{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	
+	-fx-text-fill:#fff;
+}
+#loginbtn:hover{
+	-fx-background-color:  #F50912;
+}
+
+#loginpane1{
+	-fx-background-color:#0C0A0A;
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  AboutUs Styles  //
+//////////////////////////////////////////////////////////////////*/
+#AboutUsbtn{
+	-fx-background-radius:20px;
+	-fx-background-color: linear-gradient(to bottom ,#0C0A0A, #5C5B5B );
+	-fx-border-color:#cccccc;
+	-fx-border-radius:20px;
+	-fx-text-fill:#fff;
+}
+#AboutUspane1{
+	-fx-background-color: #0C0A0A; 	
+}
+#AboutUspane2{
+	-fx-background-color: linear-gradient(to bottom left,rgba(0,0,0,0.60), rgba(42,46,54,1) ); 
+}
+#AboutUsimg1{
+	-fx-border-color:#000;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+}	
+
+/*//////////////////////////////////////////////////////////////////
+//  Admin Dashboard Styles  //
+//////////////////////////////////////////////////////////////////*/
+#AdminDashPane1{
+	-fx-background-color:#0C0A0A;
+}
+#AdminDashPane2{
+	-fx-background-color:#332A2A;
+}
+.AdminDashbtn{
+	-fx-background-color:transparent;
+	-fx-border-width: 3;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+}
+#pasinduimg{
+	-fx-border-width: 3;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+	-fx-background-radius:20px;
+}
+#AboutUsBack{
+	-fx-background-color: transparent;
+	-fx-border-color: #F50912;
+	-fx-border-radius:10px;
+	-fx-text-fill:#F50912;
+}
+#progressbar{
+	-fx-accent:red;
+}

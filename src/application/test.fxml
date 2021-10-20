@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.testcontroll">
+   <children>
+      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <Button layoutX="189.0" layoutY="348.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="122.0" style="-fx-background-color: #000; -fx-background-color: ;" text="Button" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" />
+            <Label layoutX="201.0" layoutY="55.0" text="Login" textFill="#838282">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="pwd" layoutX="157.0" layoutY="250.0" onAction="#printpwd" promptText="Password" />
+            <TextField fx:id="uname" layoutX="157.0" layoutY="157.0" onAction="#printuname" promptText="Usre Name" />
+            <CheckBox layoutX="164.0" layoutY="306.0" mnemonicParsing="false" text="CheckBox" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
