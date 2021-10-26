@@ -2,10 +2,12 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="640.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminAddUserController">
    <children>
@@ -48,6 +50,7 @@
                   <Font size="15.0" />
                </font>
             </Button>
+            <TextField layoutX="345.0" layoutY="189.0" prefHeight="35.0" prefWidth="415.0" />
          </children></Pane>
       <Pane fx:id="AdminDashPane2" layoutX="228.0" prefHeight="650.0" prefWidth="912.0" stylesheets="@../CSS_Files/stylesheetPraveen.css">
          <children>
@@ -57,7 +60,56 @@
             <Line endX="-81.0624008178711" endY="1.4241751432418823" layoutX="145.0" layoutY="55.0" rotate="40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
             <Line endX="-80.63815307617188" endY="-1.1510257720947266" layoutX="145.0" layoutY="39.0" rotate="-40.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
             <Button fx:id="Backbtn" layoutX="35.0" layoutY="23.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="59.0" />
+            <Text fill="WHITE" layoutX="103.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name              :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="103.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIC                  :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="100.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination      :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="100.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Police Station  :">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Label fx:id="Admin1" alignment="CENTER" layoutX="386.0" layoutY="38.0" text="Add User" textFill="#e40707">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UserNameTxt" layoutX="335.0" layoutY="176.0" prefHeight="37.0" prefWidth="473.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Submitbtn" layoutX="647.0" layoutY="488.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="162.0" text="Submit" textAlignment="CENTER" textFill="#00df0f" wrapText="true">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+            <TextField fx:id="UserNicTxt" layoutX="335.0" layoutY="247.0" prefHeight="37.0" prefWidth="473.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="StationTxt" layoutX="335.0" layoutY="319.0" prefHeight="37.0" prefWidth="473.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="DestinationTxt" layoutX="335.0" layoutY="393.0" prefHeight="37.0" prefWidth="473.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
          </children></Pane>
    </children>
 </AnchorPane>
-
