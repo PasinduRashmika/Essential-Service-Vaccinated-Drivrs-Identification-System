@@ -3,13 +3,18 @@ package Controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Line;
 
 public class AdminAddUserController {
 	
+
     @FXML
     private Label Admin;
+
+    @FXML
+    private Label Admin1;
 
     @FXML
     private Line AdminDashLine1;
@@ -48,7 +53,21 @@ public class AdminAddUserController {
     private Button Backbtn;
 
     @FXML
+    private TextField DestinationTxt;
+
+    @FXML
     private Button LogOutbtn;
 
+    @FXML
+    private TextField StationTxt;
+
+    @FXML
+    private Button Submitbtn;
+
+    @FXML
+    private TextField UserNameTxt;
+
+    @FXML
+    private TextField UserNicTxt;
 
 }
