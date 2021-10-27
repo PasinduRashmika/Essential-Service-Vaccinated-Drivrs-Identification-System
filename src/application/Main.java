@@ -15,9 +15,9 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 			//Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/Loading.fxml"));
-			//Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/Login.fxml"));
+			Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/Login.fxml"));
 			//Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/AboutUs.fxml"));
-			Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/AdminDashboard.fxml"));
+			//Parent root= FXMLLoader.load(getClass().getResource("/FXML_Files/AdminDashboard.fxml"));
 			Scene scene = new Scene(root,1140,640);
 			primaryStage.setResizable(false);
 			primaryStage.setScene(scene);
