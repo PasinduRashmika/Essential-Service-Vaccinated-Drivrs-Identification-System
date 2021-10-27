@@ -168,7 +168,7 @@ public class AdminDashboardController {
     	AdminDashbtn10.getScene().getWindow().hide();
     	Stage addVaccination = new Stage();
     	
-			Parent root = FXMLLoader.load(getClass().getResource("/FXML_Files/AdminAddVaccinatedDetails.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("/FXML_Files/AdminVaccinatedDetails.fxml"));
 			Scene scene = new Scene(root);
 			addVaccination.setResizable(false);
 			addVaccination.setScene(scene);

@@ -69,7 +69,7 @@ public class AdminAddUserController {
     private TextField StationTxt;
 
     @FXML
-    private Button Submitbtn;
+    private Button SubmitUserbtn;
 
     @FXML
     private TextField UserNameTxt;
