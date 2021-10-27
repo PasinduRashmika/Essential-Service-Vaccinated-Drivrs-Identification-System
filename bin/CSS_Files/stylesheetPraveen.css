@@ -59,20 +59,20 @@
 #Backbtn:hover{
 	-fx-border-color:#F50912;
 }
-#Submitbtn{
+#SubmitUserbtn, #SubmitVehiclebtn, #SubmitVaccinatedbtn{
 	-fx-background-color:transparent;
 	-fx-border-color: #00df0f;
 	-fx-border-radius:7px;
 	-fx-border-width:1.25px;
 }
-#Submitbtn:hover{
+#SubmitUserbtn:hover, #SubmitVehiclebtn:hover, #SubmitVaccinatedbtn:hover{
 	-fx-background-color:#00df0f;
 	-fx-text-fill:#fff;	
 	-fx-background-radius:7px;
 	-fx-border-color: #32FF6A;
 	-fx-border-width:1.25px;
 }
-#Submitbtn:focused{
+#SubmitUserbtn:focused, #SubmitVehiclebtn:focused, #SubmitVaccinatedbtn:focused{
 	-fx-background-color:linear-gradient(to bottom ,#00df0f, #018383 );
 	-fx-text-fill:#fff;
 	-fx-background-radius:7px;
@@ -84,6 +84,17 @@
 	-fx-text-fill:#fff;
 	
 }
+#VehicleNotxt, #VehicleTypetxt, #Vehiclecolortxt, #VehicleMaketxt, #VehicleLiNotxt, #VehiclePermittxt{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+	
+}
+#VaccinatedDrivertxt, #FirstDosePicker, #SecondDosePicker{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;
+	
+}
+
 #DetailsTable{
 	-fx-border-color: #fff;
 }
