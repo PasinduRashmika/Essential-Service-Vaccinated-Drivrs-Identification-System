@@ -23,6 +23,11 @@
                   <Font name="System Bold" size="45.0" />
                </font>
             </Label>
+            <Button fx:id="AdminDashbtn5" layoutX="44.0" layoutY="460.0" mnemonicParsing="false" onAction="#AdminDashAction5" prefHeight="55.0" prefWidth="141.0" text="Add Vaccination Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
             <Button fx:id="AdminDashbtn1" layoutX="44.0" layoutY="142.0" mnemonicParsing="false" onAction="#AdminDashAction1" prefHeight="55.0" prefWidth="141.0" text="Add User" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="15.0" />

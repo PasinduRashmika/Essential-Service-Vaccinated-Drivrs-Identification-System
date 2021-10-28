@@ -14,9 +14,8 @@ import javafx.scene.layout.Pane;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
-public class AdminAddUserController {
+public class AdminDeleteVehicleController {
 	
-
     @FXML
     private Label Admin;
 
@@ -60,22 +59,34 @@ public class AdminAddUserController {
     private Button Backbtn;
 
     @FXML
-    private TextField DestinationTxt;
+    private TextField DeleteDrivertxt;
+
+    @FXML
+    private TextField DeleteVehicleLiNotxt;
+
+    @FXML
+    private TextField DeleteVehicleMaketxt;
+
+    @FXML
+    private TextField DeleteVehicleNotxt;
+
+    @FXML
+    private TextField DeleteVehiclePermittxt;
+
+    @FXML
+    private Button DeleteVehicleSearchbtn;
+
+    @FXML
+    private TextField DeleteVehicleTypetxt;
+
+    @FXML
+    private Button DeleteVehiclebtn;
+
+    @FXML
+    private TextField DeleteVehiclecolortxt;
 
     @FXML
     private Button LogOutbtn;
-
-    @FXML
-    private TextField StationTxt;
-
-    @FXML
-    private Button SubmitUserbtn;
-
-    @FXML
-    private TextField UserNameTxt;
-
-    @FXML
-    private TextField UserNicTxt;
 
     @FXML
     public void AdminDashAction1(ActionEvent event) throws IOException  {
@@ -140,7 +151,9 @@ public class AdminAddUserController {
 			addVaccination.setResizable(false);
 			addVaccination.setScene(scene);
 			addVaccination.show();
-    }    
+    }
+
+    
     @FXML
     public void BackbtnAction(ActionEvent event) throws IOException  {
     	
@@ -153,7 +166,7 @@ public class AdminAddUserController {
 			dashBoard.setScene(scene);
 			dashBoard.show();
     }
-
+    
     @FXML
     public void LogOutbtnAction(ActionEvent event) throws IOException  {
     	
@@ -166,4 +179,5 @@ public class AdminAddUserController {
 			logOut.setScene(scene);
 			logOut.show();
     }
+
 }
