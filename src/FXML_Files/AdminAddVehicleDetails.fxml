@@ -20,6 +20,11 @@
                   <Font name="System Bold" size="45.0" />
                </font>
             </Label>
+            <Button fx:id="AdminDashbtn3" layoutX="44.0" layoutY="297.0" mnemonicParsing="false" onAction="#AdminDashAction3" prefHeight="55.0" prefWidth="141.0" text="Add Vehicle Details" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
             <Button fx:id="AdminDashbtn1" layoutX="44.0" layoutY="142.0" mnemonicParsing="false" onAction="#AdminDashAction1" prefHeight="55.0" prefWidth="141.0" text="Add User" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="15.0" />
@@ -30,12 +35,8 @@
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button fx:id="AdminDashbtn3" layoutX="44.0" layoutY="297.0" mnemonicParsing="false" onAction="#AdminDashAction3" prefHeight="55.0" prefWidth="141.0" text="Add Vehicle Details" textAlignment="CENTER" wrapText="true">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Button>
-            <Button fx:id="AdminDashbtn4" layoutX="44.0" layoutY="378.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="141.0" text="Delete Vehicle Details" textAlignment="CENTER" wrapText="true">
+            
+            <Button fx:id="AdminDashbtn4" layoutX="44.0" layoutY="378.0" mnemonicParsing="false" onAction="#AdminDashAction4" prefHeight="55.0" prefWidth="141.0" text="Delete Vehicle Details" textAlignment="CENTER" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>

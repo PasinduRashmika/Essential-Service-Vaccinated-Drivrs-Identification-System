@@ -91,47 +91,47 @@
 }
 #VaccinatedDrivertxt, #FirstDosePicker, #SecondDosePicker{
 	-fx-background-color:#696969;
-	-fx-text-fill:#fff;
-	
+	-fx-text-fill:#fff;	
 }
-
+#DeleteVehicleNotxt, #DeleteDrivertxt, #DeleteVehicleTypetxt, #DeleteVehiclecolortxt, #DeleteVehicleMaketxt, #DeleteVehicleLiNotxt, #DeleteVehiclePermittxt{
+	-fx-background-color:#696969;
+	-fx-text-fill:#fff;	
+}
 #DetailsTable{
 	-fx-border-color: #fff;
 }
-
-
-#Deletebtn{
+#Deletebtn, #DeleteVehiclebtn{
 	-fx-background-color:transparent;
 	-fx-border-color: #F50912;
 	-fx-border-radius:7px;
 	-fx-border-width:1.25px;
 }
-#Deletebtn:hover{
+#Deletebtn:hover, #DeleteVehiclebtn:hover{
 	-fx-background-color:  #F50912;
 	-fx-text-fill:#fff;
 	-fx-background-radius:7px;
 	-fx-cursor: pointer;
 }
-#Deletebtn:focused{
+#Deletebtn:focused, #DeleteVehiclebtn:focused{
 	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
 	-fx-background-radius:7px;
 	-fx-text-fill:#fff;
 }
 
 
-#Searchbtn{
+#Searchbtn, #DeleteVehicleSearchbtn{
 	-fx-background-color:transparent;
 	-fx-border-color: #F50912;
 	-fx-border-radius:7px;
 	-fx-border-width:1.25px;
 }
-#Searchbtn:hover{
+#Searchbtn:hover, #DeleteVehicleSearchbtn:hover{
 	-fx-background-color:  #F50912;
 	-fx-text-fill:#fff;
 	-fx-background-radius:7px;
 	-fx-cursor: pointer;
 }
-#Searchbtn:focused{
+#Searchbtn:focused, #DeleteVehicleSearchbtn:focused{
 	-fx-background-color:  linear-gradient(to bottom ,#F50912, #7B0509 );
 	-fx-background-radius:7px;
 	-fx-text-fill:#fff;

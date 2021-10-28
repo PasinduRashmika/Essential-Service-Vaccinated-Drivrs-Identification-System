@@ -120,6 +120,19 @@ public class AdminAddVehicleDetailsController {
 			addVehicle.setScene(scene);
 			addVehicle.show();
     }
+    
+    @FXML
+    public void AdminDashAction4(ActionEvent event) throws IOException  {
+    	
+    	AdminDashbtn4.getScene().getWindow().hide();
+    	Stage deleteVehicle = new Stage();
+    	
+			Parent root = FXMLLoader.load(getClass().getResource("/FXML_Files/AdminDeleteVehicleDetails.fxml"));
+			Scene scene = new Scene(root);
+			deleteVehicle.setResizable(false);
+			deleteVehicle.setScene(scene);
+			deleteVehicle.show();
+    }
 
     @FXML
     public void AdminDashAction5(ActionEvent event) throws IOException  {
