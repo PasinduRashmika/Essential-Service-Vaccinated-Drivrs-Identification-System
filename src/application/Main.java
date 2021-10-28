@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 
@@ -22,6 +23,8 @@ public class Main extends Application {
 			primaryStage.setResizable(false);
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			primaryStage.setTitle("Essential Service & Vaccinated Drivers Identifiaction System");
+			//primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("ProLogoN.png")));
 	}
 	
 	public static void main(String[] args) {
