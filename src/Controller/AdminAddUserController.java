@@ -2,12 +2,15 @@ package Controller;
 
 import java.io.IOException;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
@@ -16,6 +19,8 @@ import javafx.stage.Stage;
 
 public class AdminAddUserController {
 	
+	
+	ObservableList<String> designation = FXCollections.observableArrayList("Traffic", "Non-Traffic");
 
     @FXML
     private Label Admin;
@@ -76,6 +81,14 @@ public class AdminAddUserController {
 
     @FXML
     private TextField UserNicTxt;
+    
+    @FXML
+    private ChoiceBox<String> ChoiceBoxSelect;
+    
+    @FXML
+    private void initialize(){
+    	ChoiceBoxSelect.setItems(designation);
+    }
 
     @FXML
     public void AdminDashAction1(ActionEvent event) throws IOException  {
