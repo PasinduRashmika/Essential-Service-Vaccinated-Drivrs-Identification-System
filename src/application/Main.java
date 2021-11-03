@@ -24,7 +24,7 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			primaryStage.setTitle("Essential Service & Vaccinated Drivers Identifiaction System");
-			//primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("ProLogoN.png")));
+			primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("/Images/ProLogoN.png")));
 	}
 	
 	public static void main(String[] args) {
