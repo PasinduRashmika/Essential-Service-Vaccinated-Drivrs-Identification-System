@@ -1,5 +1,5 @@
 /*//////////////////////////////////////////////////////////////////
-//  Login Styles  //
+//  Login Styles   //
 //////////////////////////////////////////////////////////////////*/
 #ForgotPass{
 	-fx-underline: true;
@@ -19,7 +19,6 @@
 }
 #loginbtn{
 	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
-	
 	-fx-text-fill:#fff;
 }
 #loginbtn:hover{
@@ -29,6 +28,10 @@
 #loginpane1{
 	-fx-background-color:#0C0A0A;
 }
+#loginwelcome:hover{
+	-fx-text-fill:#860200;
+	
+}
 
 /*//////////////////////////////////////////////////////////////////
 //  AboutUs Styles  //
@@ -36,9 +39,13 @@
 #AboutUsbtn{
 	-fx-background-radius:20px;
 	-fx-background-color: linear-gradient(to bottom ,#0C0A0A, #5C5B5B );
-	-fx-border-color:#cccccc;
+	-fx-border-color:linear-gradient(to bottom ,#0C0A0A, #5C5B5B );
 	-fx-border-radius:20px;
 	-fx-text-fill:#fff;
+}
+#AboutUsbtn:hover{
+	-fx-background-color: linear-gradient(to bottom ,#F50912, #7B0509 );
+	-fx-border-color: linear-gradient(to bottom ,#F50912, #7B0509 );
 }
 #AboutUspane1{
 	-fx-background-color: #0C0A0A; 	
@@ -79,6 +86,34 @@
 	-fx-border-radius:10px;
 	-fx-text-fill:#F50912;
 }
+#AboutUsBack:hover{
+	-fx-background-color: #F50912;
+	-fx-border-color: #F50912;
+	-fx-border-radius:25px;
+	-fx-text-fill:#FFF;
+}
+
+/*//////////////////////////////////////////////////////////////////
+//  Loading Styles  //
+//////////////////////////////////////////////////////////////////*/
+
 #progressbar{
-	-fx-accent:red;
+	-fx-accent: #CD1400;
+    -fx-background-color:black;
+     -fx-box-border:linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        red; /* this line is the background color of the bar */
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+    
+}
+#LoadingLable{
+	-fx-text-fill:#FFF;
+}
+#Lbtn{
+	-fx-background-color:transparent;	
+}
+#Lbtn:hover{
+	-fx-cursor:hand;
+	-fx-font-size:25px;
+		
 }
