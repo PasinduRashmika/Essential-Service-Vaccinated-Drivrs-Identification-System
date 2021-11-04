@@ -117,7 +117,11 @@
                   <Font size="20.0" />
                </font>
             </Button>
+<<<<<<< HEAD
             <Label fx:id="Admin1" layoutX="324.0" layoutY="46.0" text="Delete Users" textFill="#e40707">
+=======
+            <Label fx:id="Admin1" layoutX="334.0" layoutY="46.0" text="Delete User" textFill="#e40707">
+>>>>>>> 1f52f2dcbdd72b31b4b153e616bac4699a46e2eb
                <font>
                   <Font name="System Bold" size="45.0" />
                </font>

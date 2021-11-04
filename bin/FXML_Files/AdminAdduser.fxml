@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<<<<<<< HEAD
+=======
+<?import javafx.scene.control.ChoiceBox?>
+>>>>>>> 1f52f2dcbdd72b31b4b153e616bac4699a46e2eb
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -105,11 +109,15 @@
                   <Font size="17.0" />
                </font>
             </TextField>
+<<<<<<< HEAD
             <TextField fx:id="DestinationTxt" layoutX="335.0" layoutY="393.0" prefHeight="37.0" prefWidth="473.0">
                <font>
                   <Font size="17.0" />
                </font>
             </TextField>
+=======
+            <ChoiceBox fx:id="ChoiceBoxSelect" layoutX="335.0" layoutY="394.0" prefHeight="37.0" prefWidth="207.0" />
+>>>>>>> 1f52f2dcbdd72b31b4b153e616bac4699a46e2eb
          </children></Pane>
    </children>
 </AnchorPane>
