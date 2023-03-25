@@ -13,7 +13,6 @@ As well as, people have hug responsible A significant number of people are misus
 They use fake essential services permits to escape the law. Otherwise, 
 they are not involved in the correct vaccination process. 
 Police officers have to fulfil large and heavy role control this situation.
-![Artboard 1](https://user-images.githubusercontent.com/86168078/227679989-04646793-9ecd-4e84-acad-ff1ce4476ee4.png)
 
 ## Problem Definition
 At this moment, at normal roadblocks in Sri Lanka check the vehicles by police officers. 
@@ -32,6 +31,8 @@ contribute to this process and to minimize the spread of the disease.
 
 Therefore, we planned to develop a java-based system that enables police officers 
 and police to solve this practical problem remotely and more securely and reliably.
+
+![Artboard 1](https://user-images.githubusercontent.com/86168078/227679989-04646793-9ecd-4e84-acad-ff1ce4476ee4.png)
 
 ## Objectives
 We can find three categories of stakeholders in this problem and our final solution will be able to be a platform that helps the stakeholders in following ways.
