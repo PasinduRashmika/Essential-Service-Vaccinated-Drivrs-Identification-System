@@ -12,7 +12,9 @@ permits and vaccination is carried out continuously.
 As well as, people have hug responsible A significant number of people are misusing permissions. 
 They use fake essential services permits to escape the law. Otherwise, 
 they are not involved in the correct vaccination process. 
-Police officers have to fulfil large and heavy role control this situation. 
+Police officers have to fulfil large and heavy role control this situation.
+![Artboard 1](https://user-images.githubusercontent.com/86168078/227679989-04646793-9ecd-4e84-acad-ff1ce4476ee4.png)
+
 ## Problem Definition
 At this moment, at normal roadblocks in Sri Lanka check the vehicles by police officers. 
 In generally in the roadblocks, we park the vehicle and get out of the vehicle, 
