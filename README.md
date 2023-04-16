@@ -61,6 +61,12 @@ We can find three categories of stakeholders in this problem and our final solut
      - [x] View number of checked vehicles
      - [x] Cancel permits
 ## We hope to develop the system using Java for to cover the above requirements.
+
+##This is a demo video For better understanding about the project.
+
+https://user-images.githubusercontent.com/86168078/232262085-e2a5f420-4c5a-4f04-958e-9c32eba63609.mp4
+
+
      
      
 
